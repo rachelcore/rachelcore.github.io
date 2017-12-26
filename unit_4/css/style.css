@@ -49,12 +49,17 @@ img	{
 }
 
 body {
-	font-family: Veranda, sans-serif; 
 	font-size: 20px;
 	font-weight; normal;
 }
 
-h5, ul { 
+#market { 
+	font-size: 18px;
+	padding-left: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+ul { 
 	font-size: 18px;
 	padding-left: 20px;
 	font-family: 'Open Sans', sans-serif;
