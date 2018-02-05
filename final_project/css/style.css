@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+body {
+	font-size: 20px;
+	font-weight; normal;
+}
+
+html {
+	background-color: rgba(99,102,106,0.7);
+}
+
+header {
+	background-color: white;
+	padding: 20px;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.25em 
+}
+
+nav	{
+	text-decoration: none; 
+	text-align: center;
+	font-size: 1em; 
+	padding: 20px;  
+	margin: 20px; 
+}
+
+div	{
+	padding: 20px;
+}
+
+article {
+	padding: 20px;
+}
+
+nav a:hover { 
+	background-color: #C4D600
+}
+
+.navlinks {
+	padding: 10px;
+	margin-left: 15px; 
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500; 
+	display: inline-block;
+	color: rgb(60,16,83);
+	text-align: center; 
+}
+
+label {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500; 
+	color: rgb(60,16,83);
+	text-align: center; 
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 10px;
+	display: none;
+}
+
+#slogan { 
+	color: rgb(196,214,0);
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 1.5em
+}
+
+img	{ 
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+ #description {
+ 	background-color: white;
+ 	font-family: 'Roboto', sans-serif;
+ 	text-align: center; 
+ 	padding: 20px;
+    margin: auto;
+}
+
+
+#market { 
+	padding-left: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#segments { 
+	font-size: .8em;
+	padding-left: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+	text-align: right;
+	font-size: .8em; 
+	background-color: white;
+	padding: 5px;
+}
+
+footer a {
+	text-decoration: none; 
+	color: black;
+}
+
+footer a:visited {
+	color: rgb(60,16,83);
+}
+
+footer a:hover {
+	color: rgb(196,214,0);
+}
+
+#instagram {
+	display: inline-block;
+	max-width: 50px;
+	max-height: 50px; 
+	padding-bottom: 5px;
+	padding-right: 7px; 
+}
+
+#linkedin {
+	display: inline-block;
+	max-width: 50px;
+	max-height: 50px; 
+	padding-bottom: 5px;
+}
+
+h5{
+	font-size: 1.1em;
+}
+
+#two_column {
+	padding: 5px; 
+}
+
+#left { 
+	padding: 5px; 
+	float: left;
+	width: 30%;
+	text-align: left;
+}
+
+#right {
+	padding: 5px;
+	float: right; 
+	width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0; 
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.mailing {
+	list-style: none;
+}
+
+#corelogo {
+	float: top;
+	width: 200px;
+	padding: auto;
+}
+
+#toggle{
+	display: none;
+	text-decoration: none; 
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500; 
+	color: rgb(60,16,83);
+}
+
+@media screen and (max-width: 1520px) {
+	 .navlinks {
+		padding: 5px;
+		margin-left: 5px; 
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	nav {
+		margin: 0;
+	}
+	.navlinks {
+		padding: 5px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	div, header, nav, article {
+		padding: .5%;
+	}
+	#description {
+		padding: 1%;
+	}
+	#slogan {
+		margin: 2.5%;
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	nav{
+		display: none;
+	}
+	nav a:link{
+		display: block;
+		padding:15px;
+		margin:5px;
+	}
+	h1{
+		margin:40px 0 0;
+	}
+	header{
+		padding:0 2%;
+	}
+	label{
+		display: block;
+	}
+	#toggle:checked + nav{
+		display: block;
+	}
+}
